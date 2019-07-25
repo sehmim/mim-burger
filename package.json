@@ -1,0 +1,35 @@
+{
+  "name": "mim-burger",
+  "version": "0.0.1",
+  "description": "This is React Hamburger Module.",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sehmim2/mim-burger.git"
+  },
+  "author": "Sehmim2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sehmim2/mim-burger/issues"
+  },
+  "homepage": "https://github.com/sehmim2/mim-burger#readme",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "style-it": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
